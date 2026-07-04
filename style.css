@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #7fc7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1 { color: #a2ff6c; font-size: 32px; } 
+p { color: #9dff00; }
+
+.tarjeta {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    margin: 20px 0;
+}
+
+ul { list-style: none; padding: 0; }
+li { padding: 8px 0; border-bottom: 1px solid #dcdde1; }
+span { color: #e67e22; font-weight: bold; float: right; }
+
+button {
+    background-color: #bbfa69;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover { background-color: #c78ce9; }
